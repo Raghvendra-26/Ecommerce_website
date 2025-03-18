@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import {signOut, getAuth } from "firebase/auth";
-import { auth } from "../../firebase/firebase.utils"; // Import the auth from firebase.utils
 import "./navbar.scss";
 import logo from "../../assets/crown.svg";
 
